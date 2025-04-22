@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://ubvsnaprnhih"]
+
+[ext_resource type="Texture2D" uid="uid://cbvh7m8a8bgec" path="res://assets/gui/left.png" id="1_n26gd"]
+[ext_resource type="Texture2D" uid="uid://b7pp5x613boxl" path="res://assets/gui/right.png" id="2_6e4pk"]
+[ext_resource type="Texture2D" uid="uid://ch2yohjh8g6pw" path="res://assets/gui/jump.png" id="3_6e4pk"]
+
+[node name="TouchControls" type="CanvasLayer"]
+
+[node name="Left" type="TouchScreenButton" parent="."]
+position = Vector2(57, 460)
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("1_n26gd")
+action = "move_left"
+
+[node name="Right" type="TouchScreenButton" parent="."]
+position = Vector2(186, 459)
+scale = Vector2(0.06, 0.06)
+texture_normal = ExtResource("2_6e4pk")
+action = "move_right"
+
+[node name="Jump" type="TouchScreenButton" parent="."]
+position = Vector2(904, 449)
+scale = Vector2(0.06, 0.06)
+texture_normal = ExtResource("3_6e4pk")
+action = "jump"
