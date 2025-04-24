@@ -8,7 +8,7 @@ var direction = 1
 @onready var ray_cast_left: RayCast2D = $RayCastLeft
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 
-@export var slimeIndex = 0
+@export var slimeIndex = 0 # 1 for purple slime, 0 for green slime
 
 func _ready() -> void:
 	if slimeIndex == 1:

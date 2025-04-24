@@ -357,6 +357,10 @@ position = Vector2(114, -45)
 position = Vector2(493, 34)
 slimeIndex = 1
 
+[node name="Slime3" parent="Enemies" instance=ExtResource("6_p57ef")]
+position = Vector2(1019, 34)
+slimeIndex = 1
+
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
